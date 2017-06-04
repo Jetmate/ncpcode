@@ -1,2 +1,2 @@
 # ncpcode
-Northside's Hackclub Website
+The official NCP Code Website
