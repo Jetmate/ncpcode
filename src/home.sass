@@ -1,0 +1,32 @@
+@import stylesheet
+
+#title
+  text-align: center
+  font-size: 1.4vw
+  white-space: pre
+
+#table1
+  position: absolute
+
+@media (max-width: 600px)
+  #table1
+    visibility: hidden
+
+@media (min-width: 601px)
+  #table2
+    visibility: hidden
+
+td 
+  border-left: 2px solid $primary-color
+  padding: 0 2%
+  vertical-align: top
+  
+td:first-child 
+  border-left: none
+
+
+ul
+  list-style-type: none
+
+a
+  color: #85C1E9
