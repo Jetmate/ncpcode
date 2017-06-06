@@ -1,4 +1,5 @@
 $primary-color: #2ECC71
+$link-color: #A93226
 
 @font-face
   font-family: 'Inconsolata'
@@ -15,8 +16,13 @@ body
   font-size: 1.5em
 
 h1
-  text-align: center
   font-weight: normal
+  border: 3px solid $link-color
+  display: inline
+  border-radius: 3px
+
+h1 a
+  text-decoration: none
 
 h2 
   font-family: Lobster
